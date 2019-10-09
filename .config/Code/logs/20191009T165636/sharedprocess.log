@@ -1,0 +1,26 @@
+[2019-10-09 16:56:40.427] [sharedprocess] [info] main {"machineId":"8ded59ceb65a6aaec427e8a2f03c3d8ae1205d0a3bd11821578ea07d3c075c5c"}
+[2019-10-09 16:57:20.414] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-09 16:58:26.614] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-10-09 16:58:51.904] [sharedprocess] [info] Installing extension: eg2.vscode-npm-script
+[2019-10-09 16:58:52.943] [sharedprocess] [info] Downloaded extension: eg2.vscode-npm-script /tmp/911da754-8c93-4abd-b1cc-8cc4cd4c4c71
+[2019-10-09 16:58:53.118] [sharedprocess] [info] Extracted extension to /home/shreyash/.vscode/extensions/.eg2.vscode-npm-script-0.3.9: eg2.vscode-npm-script
+[2019-10-09 16:58:53.118] [sharedprocess] [info] Renamed to /home/shreyash/.vscode/extensions/eg2.vscode-npm-script-0.3.9
+[2019-10-09 16:58:53.119] [sharedprocess] [info] Installation completed. eg2.vscode-npm-script
+[2019-10-09 16:58:53.186] [sharedprocess] [info] Extensions installed successfully: eg2.vscode-npm-script
+[2019-10-09 16:59:24.687] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/45560750-8bbb-4f83-85b3-47869a908661
+[2019-10-09 16:59:27.735] [sharedprocess] [info] Installing extension: ivangabriele.vscode-heroku
+[2019-10-09 16:59:28.662] [sharedprocess] [info] Downloaded extension: ivangabriele.vscode-heroku /tmp/011172ba-f861-493e-94c6-03706ad18628
+[2019-10-09 16:59:29.311] [sharedprocess] [info] Extracted extension to /home/shreyash/.vscode/extensions/.ivangabriele.vscode-heroku-1.2.6: ivangabriele.vscode-heroku
+[2019-10-09 16:59:29.312] [sharedprocess] [info] Renamed to /home/shreyash/.vscode/extensions/ivangabriele.vscode-heroku-1.2.6
+[2019-10-09 16:59:29.314] [sharedprocess] [info] Installation completed. ivangabriele.vscode-heroku
+[2019-10-09 16:59:29.363] [sharedprocess] [info] Extensions installed successfully: ivangabriele.vscode-heroku
+[2019-10-09 16:59:29.598] [sharedprocess] [info] Installing extension: pkosta2005.heroku-command
+[2019-10-09 16:59:30.021] [sharedprocess] [info] Downloaded extension: pkosta2005.heroku-command /tmp/eff30997-e7fc-496e-93fb-eef35c07528f
+[2019-10-09 16:59:30.040] [sharedprocess] [info] Extracted extension to /home/shreyash/.vscode/extensions/.pkosta2005.heroku-command-0.0.8: pkosta2005.heroku-command
+[2019-10-09 16:59:30.040] [sharedprocess] [info] Renamed to /home/shreyash/.vscode/extensions/pkosta2005.heroku-command-0.0.8
+[2019-10-09 16:59:30.043] [sharedprocess] [info] Installation completed. pkosta2005.heroku-command
+[2019-10-09 16:59:30.088] [sharedprocess] [info] Extensions installed successfully: pkosta2005.heroku-command
+[2019-10-09 16:59:30.851] [sharedprocess] [info] Extracted extension to /home/shreyash/.vscode/extensions/.ms-python.python-2019.10.41019: ms-python.python
+[2019-10-09 16:59:30.851] [sharedprocess] [info] Renamed to /home/shreyash/.vscode/extensions/ms-python.python-2019.10.41019
+[2019-10-09 16:59:30.862] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-10-09 16:59:31.073] [sharedprocess] [info] Extensions installed successfully: ms-python.python

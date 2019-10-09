@@ -1,0 +1,66 @@
+{
+   "checksum": "e625790d4f389bb53dc3715bfccbeb26",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13215090557845840",
+            "id": "5",
+            "name": "Home",
+            "type": "url",
+            "url": "https://lendenclub.keka.com/#/home"
+         }, {
+            "date_added": "13215090645445552",
+            "id": "7",
+            "name": "Inbox - shreyash.p@lendenclub.com - Innofin Solutions Private Limited Mail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13215090650599467",
+            "id": "8",
+            "name": "#LDC MUMBAI - Chat",
+            "type": "url",
+            "url": "https://chat.google.com/room/AAAAFc9Msrs"
+         }, {
+            "date_added": "13215090758844811",
+            "id": "9",
+            "name": "Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/u/0/?tgif=d"
+         } ],
+         "date_added": "13215090438806110",
+         "date_modified": "13215091483816493",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13215091483816493",
+            "id": "10",
+            "name": "Running react-native app in ubuntu 18.04 - dooboolab - Medium",
+            "type": "url",
+            "url": "https://medium.com/dooboolab/running-react-native-app-in-ubuntu-18-04-7d1db4ac7518"
+         }, {
+            "date_added": "13215091537764376",
+            "id": "11",
+            "name": "Discovering opportunities at LA | Kaggle",
+            "type": "url",
+            "url": "https://www.kaggle.com/shahules/discovering-opportunities-at-la/notebook"
+         } ],
+         "date_added": "13215090438806115",
+         "date_modified": "13215091537764376",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13215090438806120",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
