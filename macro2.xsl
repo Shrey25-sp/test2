@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:html="http://www.w3.org/1999/xhtml">
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <!-- Template to match the root element and generate HTML -->
     <xsl:template match="/">
         <html>
             <head>
-                <title>Employee List</title>
+                <title>CD Catalog</title>
                 <style>
                     body {
                         font-family: Arial, sans-serif;
@@ -46,7 +45,7 @@
                         var input, filter, table, tr, td, i, j, txtValue;
                         input = document.getElementById("searchInput");
                         filter = input.value.toUpperCase();
-                        table = document.getElementById("employeeTable");
+                        table = document.getElementById("cdTable");
                         tr = table.getElementsByTagName("tr");
 
                         for (i = 1; i < tr.length; i++) {
@@ -66,7 +65,7 @@
 
                     function sortTable(n) {
                         var table, rows, switching, i, x, y, shouldSwitch, dir, switchCount = 0;
-                        table = document.getElementById("employeeTable");
+                        table = document.getElementById("cdTable");
                         switching = true;
                         dir = "asc";
                         while (switching) {
@@ -103,46 +102,34 @@
                 </script>
             </head>
             <body>
-                <h1>Employee List</h1>
+                <h1>CD Catalog</h1>
                 <div class="search-bar">
-                    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for names, positions, or departments..">
+                    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search for titles, artists, or countries..">
                 </div>
-                <table id="employeeTable">
+                <table id="cdTable">
                     <thead>
                         <tr>
-                            <th onclick="sortTable(0)">Name</th>
-                            <th onclick="sortTable(1)">Position</th>
-                            <th onclick="sortTable(2)">Department</th>
-                            <th onclick="sortTable(3)">Salary</th>
+                            <th onclick="sortTable(0)">Title</th>
+                            <th onclick="sortTable(1)">Artist</th>
+                            <th onclick="sortTable(2)">Country</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- Apply templates to each employee element -->
-                        <xsl:apply-templates select="employees/employee"/>
+                        <!-- Apply templates to each cd element -->
+                        <xsl:apply-templates select="catalog/cd"/>
                     </tbody>
                 </table>
             </body>
         </html>
     </xsl:template>
 
-    <!-- Template to match employee elements and generate table rows -->
-    <xsl:template match="employee">
+    <!-- Template to match cd elements and generate table rows -->
+    <xsl:template match="cd">
         <tr>
-            <td><xsl:value-of select="name"/></td>
-            <td><xsl:value-of select="position"/></td>
-            <td><xsl:value-of select="department"/></td>
-            <td><xsl:value-of select="salary"/></td>
+            <td><xsl:value-of select="title"/></td>
+            <td><xsl:value-of select="artist"/></td>
+            <td><xsl:value-of select="country"/></td>
         </tr>
     </xsl:template>
 
-    <!-- Sample XML data included for demonstration purposes -->
-    <xsl:template match="/">
-        <employees>
-            <employee>
-                <name>John Doe</name>
-                <position>Software Engineer</position>
-                <department>Development</department>
-                <salary>80000</salary>
-            </employee>
-            <employee>
-                <name>Ja
+</xsl:stylesheet>
