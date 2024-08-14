@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalog>
-    <cd>
-        <title>Empire Burlesque</title>
-        <artist>Bob Dylan</artist>
-        <country>USA</country>
-    </cd>
-    <cd>
-        <title>Maggie May</title>
-        <artist>Rod Stewart</artist>
-        <country>UK</country>
-    </cd>
-</catalog>
+<bookstore>
+    <book>
+        <title>XML Developer's Guide</title>
+        <author>Gambardella, Matthew</author>
+        <price>44.95</price>
+    </book>
+    <book>
+        <title>Midnight Rain</title>
+        <author>Ralls, Kim</author>
+        <price>5.95</price>
+    </book>
+</bookstore>
